@@ -7,7 +7,7 @@ function Footer() {
   return (
     <Container>
       <div className='grid' >
-        <div style={{marginBottom: 30}}>
+        <div style={{marginBottom: 30}} >
           <p className='text-md'>Email:</p>
           <p className='text-md'>matuszynski.dawid00@gmail.com</p>
         </div>

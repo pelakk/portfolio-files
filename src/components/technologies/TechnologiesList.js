@@ -6,18 +6,18 @@ export const techs = [
     },
     {
         id: 1,
-        name: 'CSS, Sass',
-        level: 'Advanced'
-    },
-    {
-        id: 2,
         name: 'Bootstrap, Tailwind',
         level: 'Advanced'
     },
     {
-        id: 3,
+        id: 2,
         name: 'JavaScript',
         level: 'Advanced'
+    },
+    {
+        id: 3,
+        name: 'CSS, Sass',
+        level: 'Regular'
     },
     {
         id: 4,

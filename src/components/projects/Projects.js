@@ -3,6 +3,7 @@ import '../../App.css';
 import Button from '../button/Button';
 import { Container } from './Projects.styled.js';
 
+
 function Projects() {
 
   return (
@@ -18,7 +19,11 @@ function Projects() {
             <p className='text-xl'>Topkaminecraft</p>
             <hr />
             <p>Innovative and probably the best polish list of Minecraft server which was built in Angular 11 with bootstrap and Java backend.</p>
-            <p style={{width: '100%'}}><Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} /></p>
+            <p style={{width: '100%'}}>
+              <a href='https://topkaminecraft.pl/' target={'_blank'} rel="noreferrer">
+                <Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} />
+              </a>
+            </p>
           </div>
 
         </div>
@@ -30,7 +35,11 @@ function Projects() {
             <p className='text-xl'>Fast food app</p>
             <hr />
             <p>Fully designed and made using React Native. It was created especially for the portfolio.</p>
-            <p style={{width: '100%'}}><Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} /></p>
+            <p style={{width: '100%'}}>
+              <a href='https://github.com/pelakk/fastfoodApp-React-Native' target={'_blank'} rel="noreferrer">
+                <Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} />
+              </a>  
+            </p>
           </div>
 
         </div>
@@ -43,10 +52,14 @@ function Projects() {
 
           <div className='proj'>
             <img src={require('../../assets/images/todolist.png')} alt="todolist" />
-            <p className='text-xl'>Simple todo list for web and simple todo app for phone</p>
+            <p className='text-xl'>Simple todo list for web </p>
             <hr />
             <p>Simple todo list with removable todos saving in the local storage.</p>
-            <p style={{width: '100%'}}><Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} /></p>
+            <p style={{width: '100%'}}>
+              <a href='https://github.com/pelakk/todo-web' target={'_blank'} rel="noreferrer">
+                <Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} />
+              </a>  
+            </p>
           </div>
 
         </div>
@@ -54,11 +67,51 @@ function Projects() {
         <div className='col'>
 
           <div className='proj'>
-            <img src={require('../../assets/images/foodapp.png')} alt="todolist" />
-            <p className='text-xl'>Fast food app</p>
+            <img src={require('../../assets/images/todoapp.png')} alt="todolist" />
+            <p className='text-xl'>Simple todo app</p>
             <hr />
-            <p>Fully designed and made using React Native. It was created especially for the portfolio.</p>
-            <p style={{width: '100%'}}><Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} /></p>
+            <p>Simple todo list with removable todos saving in the local storage.</p>
+            <p style={{width: '100%'}}>
+              <a href='https://github.com/pelakk/simple-todo-mobile-app' target={'_blank'} rel="noreferrer">
+                <Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} />
+              </a>  
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className='grid'>
+
+        <div className='col'>
+
+          <div className='proj'>
+            <img src={require('../../assets/images/weatherapp.png')} alt="weather app" />
+            <p className='text-xl'>Simple live weather app</p>
+            <hr />
+            <p>Made in React Native using free public API.</p>
+            <p style={{width: '100%'}}>
+              <a href='https://github.com/pelakk/weather-app-react-native' target={'_blank'} rel="noreferrer">
+                <Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} />
+              </a>  
+            </p>
+          </div>
+
+        </div>
+
+        <div className='col'>
+
+          <div className='proj'>
+            <img src={require('../../assets/images/portfolio.png')} alt="portfolio website" />
+            <p className='text-xl'>This portfolio website</p>
+            <hr />
+            <p>Made using React and plain CSS. Full code on my Github.</p>
+            <p style={{width: '100%'}}>
+              <a href='https://github.com/pelakk/portfolio-files' target={'_blank'} rel="noreferrer">
+                <Button children={'Look it up'} fontSize={'font-sm'} buttonSize={'btn-sm'} />
+              </a>  
+            </p>
           </div>
 
         </div>
