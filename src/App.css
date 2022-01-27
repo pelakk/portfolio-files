@@ -1,0 +1,28 @@
+.main {
+  width: 100%;
+}
+
+.color-primary {
+  color: white;
+}
+
+.color-secondary {
+  color: #BCBCBC;
+}
+
+.text-heading {
+  font-weight: 500;
+  font-size: 40px;
+} 
+
+.text-xl {
+  font-size: 28px;
+} 
+
+.text-md {
+  font-size: 22px;
+} 
+
+.text-sm {
+  font-size: 16px;
+}

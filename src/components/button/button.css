@@ -1,0 +1,36 @@
+
+.btn {
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 50px;
+    border: none;
+    background: rgb(19,173,199);
+    background: linear-gradient(270deg, rgba(19,173,199,1) 0%, rgba(105,120,209,1) 70%, rgba(148,93,214,1) 100%); 
+    cursor: pointer;
+}
+
+.btn-xl {
+    padding: 15px 50px;
+}
+
+.btn-md {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.font-xl {
+    font-size: 20px;
+}
+
+.font-md {
+    font-size: 18px;
+}
+
+.font-sm {
+    font-size: 16px;
+}

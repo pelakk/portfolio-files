@@ -1,0 +1,104 @@
+
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.navLinks ul {
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinks .page-link {
+    display: inline;
+    margin-inline: 50px;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.navLinks .social-link{
+    display: inline;
+    margin-inline: 20px;
+}
+
+.collapse {
+    display: none;
+}
+
+
+@media screen and (max-width: 1360px) {
+    .navLinks{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .navLinks.active{
+        background: #0F1624;
+        transition: all 0.5s ease;
+        left: 0;
+    }
+
+    .navLinks .pageLinks {
+        text-decoration: none;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .navLinks .socialLinks {
+        text-decoration: none;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .navLinks .page-link {
+        width: 100%;
+        display: block;
+        font-size: 34px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse {
+        display: block;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    
+}
